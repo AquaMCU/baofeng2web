@@ -1,0 +1,12 @@
+version: '3'
+
+#PORTS:
+# Baofeng2Web 7373
+
+services:
+  b2w:
+    build: ./b2w
+    ports:
+      - "7373:80"
+
+
